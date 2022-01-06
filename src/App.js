@@ -5,6 +5,8 @@ import ClassComp2 from './components/useEffect/ClassComp'
 import FuncComp2 from './components/useEffect/FuncComp'
 import ClassComp3 from './components/useReducer/ClassComp'
 import FuncComp3 from './components/useReducer/FuncComp'
+import ClassComp4 from './components/useContext/ClassComp'
+import FuncComp4 from './components/useContext/FuncComp'
 
 function App() {
   return (
@@ -22,6 +24,11 @@ function App() {
       <h1>useReducer</h1>
       <ClassComp3></ClassComp3>
       <FuncComp3></FuncComp3>
+      <hr></hr>
+
+      <h1>useContext</h1>
+      <ClassComp4></ClassComp4>
+      <FuncComp4></FuncComp4>
       <hr></hr>
 
       
