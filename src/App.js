@@ -8,6 +8,7 @@ import FuncComp3 from './components/useReducer/FuncComp'
 import ClassComp4 from './components/useContext/ClassComp'
 import FuncComp4 from './components/useContext/FuncComp'
 import FuncComp5 from './components/useWinSize/FuncComp'
+import FuncComp6 from './components/useWinSize/FuncComp'
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
 
       <h1>customHooks</h1>
       <FuncComp5></FuncComp5>
+      <hr></hr>
+
+      <h1>userCallbckMemo</h1>
+      <FuncComp6></FuncComp6>
       <hr></hr>
 
       
