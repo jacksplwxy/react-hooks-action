@@ -9,6 +9,7 @@ import ClassComp4 from './components/useContext/ClassComp'
 import FuncComp4 from './components/useContext/FuncComp'
 import FuncComp5 from './components/useWinSize/FuncComp'
 import FuncComp6 from './components/userCallbckMemo/FuncComp'
+import FuncComp7 from './components/useRef/FuncComp'
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
 
       <h1>userCallbckMemo</h1>
       <FuncComp6></FuncComp6>
+      <hr></hr>
+
+      <h1>useRef</h1>
+      <FuncComp7></FuncComp7>
       <hr></hr>
 
       
