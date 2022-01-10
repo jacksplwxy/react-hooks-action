@@ -8,7 +8,7 @@ import FuncComp3 from './components/useReducer/FuncComp'
 import ClassComp4 from './components/useContext/ClassComp'
 import FuncComp4 from './components/useContext/FuncComp'
 import FuncComp5 from './components/useWinSize/FuncComp'
-import FuncComp6 from './components/useWinSize/FuncComp'
+import FuncComp6 from './components/userCallbckMemo/FuncComp'
 
 function App() {
   return (
